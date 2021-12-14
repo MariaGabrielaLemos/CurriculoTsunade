@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+
+body {font-family: 'Roboto', sans-serif; ;}
+
+.curriculo{
+    width: 700px;
+    height: 800px;
+    border: 1px solid;
+}
+
+.esquerda{
+    float: left;
+    width: 30%;
+
+}
+.esquerda img{
+    width: 190px;
+    margin-top: 20px;
+}
+.centralizado{text-align: center;} 
+
+h3{
+    text-transform: uppercase;
+    margin: 22px !important;
+    color: rgb(236, 19, 19);
+
+}
+.direita{
+    width: 70%;
+    float: right;
+}
+hr{
+    border: 1px solid;
+    margin: 5px 15px;
+}
+.direita div p{
+    padding: 5px;
+}
+h3{   
+    text-transform: uppercase;
+    margin: 22px !important; 
+    color:rgb(255, 0, 0);}
+
+.margempeq{margin: 10px;}
+    
+.justifica{
+    text-align: justify;
+}
+h1{
+    padding: 10px;
+    background: rgb(253, 43, 43);
+    background: linear-gradient(180deg, rgba(240, 186, 70, 0.281) 0%, rgb(221, 153, 51) 100%);;;
+}
+.clear {
+    clear: both;
+}
+b{
+    color: rgb(255, 34, 34);
+}
